@@ -6,9 +6,9 @@ vagrantfie создает 2 VM ubuntu-22.04 backup и client.
 
 Workbook ansible backup_workbook.yml:
 
- на VM backup настраивает дополнительный диск, добавляет пользователя borg, устанавливает пакет borgbackup.
+- на VM backup настраивает дополнительный диск, добавляет пользователя borg, устанавливает пакет borgbackup.
 
- на VM client устанавливает пакет borgbackup, копирует borg-backup.service и borg-backup.timer из текущей директории запуска, генерит ключи ssh.
+- на VM client устанавливает пакет borgbackup, копирует borg-backup.service и borg-backup.timer из текущей директории запуска, генерит ключи ssh.
 
 
  Провека работы borgbackup:
