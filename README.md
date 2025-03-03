@@ -20,21 +20,21 @@ Workbook ansible backup_workbook.yml:
 ![Image alt](https://github.com/AlexndrVakulenko/homework18/blob/main/02_borg_init.png)
 
 Создание бэкапа:
-![Image alt]((https://github.com/AlexndrVakulenko/homework18/blob/main/03_borg_create1.png)
-![Image alt]((https://github.com/AlexndrVakulenko/homework18/blob/main/04_borg_create2.png)
+![Image alt](https://github.com/AlexndrVakulenko/homework18/blob/main/03_borg_create1.png)
+![Image alt](https://github.com/AlexndrVakulenko/homework18/blob/main/04_borg_create2.png)
 
 Просмотр бэкапа:
-![Image alt]((https://github.com/AlexndrVakulenko/homework18/blob/main/05_borg_list1.png)
-![Image alt]((https://github.com/AlexndrVakulenko/homework18/blob/main/06_borg_list2.png)
+![Image alt](https://github.com/AlexndrVakulenko/homework18/blob/main/05_borg_list1.png)
+![Image alt](https://github.com/AlexndrVakulenko/homework18/blob/main/06_borg_list2.png)
 
 Проверка работы borg prune:
-![Image alt]((https://github.com/AlexndrVakulenko/homework18/blob/main/07_borg_prune.png)
+![Image alt](https://github.com/AlexndrVakulenko/homework18/blob/main/07_borg_prune.png)
 
 Запуск и проверка службы таймера:
-![Image alt]((https://github.com/AlexndrVakulenko/homework18/blob/main/08_borg_timer.png)
+![Image alt](https://github.com/AlexndrVakulenko/homework18/blob/main/08_borg_timer.png)
 
 Результат работы таймера - создание нового бэкапа:
-![Image alt]((https://github.com/AlexndrVakulenko/homework18/blob/main/09_borg_timer_result.png)
+![Image alt](https://github.com/AlexndrVakulenko/homework18/blob/main/09_borg_timer_result.png)
 
 
 
