@@ -13,9 +13,28 @@ Workbook ansible backup_workbook.yml:
 
  Провека работы borgbackup:
 
+Копирование ключа ssh на сервер backup:
+![Image alt](https://github.com/AlexndrVakulenko/homework18/blob/main/01_ssh-copy-id.png)
+
+Инициализиализация репозитория borg на backup сервере с client сервера:
+![Image alt](https://github.com/AlexndrVakulenko/homework18/blob/main/02_borg_init.png)
+
+Создание бэкапа:
+![Image alt]((https://github.com/AlexndrVakulenko/homework18/blob/main/03_borg_create1.png)
+![Image alt]((https://github.com/AlexndrVakulenko/homework18/blob/main/04_borg_create2.png)
+
+Просмотр бэкапа:
+![Image alt]((https://github.com/AlexndrVakulenko/homework18/blob/main/05_borg_list1.png)
+![Image alt]((https://github.com/AlexndrVakulenko/homework18/blob/main/06_borg_list2.png)
+
+Проверка работы borg prune:
+![Image alt]((https://github.com/AlexndrVakulenko/homework18/blob/main/07_borg_prune.png)
+
+Запуск и проверка службы таймера:
+![Image alt]((https://github.com/AlexndrVakulenko/homework18/blob/main/08_borg_timer.png)
+
+Результат работы таймера - создание нового бэкапа:
+![Image alt]((https://github.com/AlexndrVakulenko/homework18/blob/main/09_borg_timer_result.png)
 
 
-
-
-![Image alt](https://github.com/AlexndrVakulenko/homework17/blob/main/01_%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0_service_nginx.png)
 
