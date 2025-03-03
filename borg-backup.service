@@ -1,0 +1,14 @@
+[Unit]
+Description=Borg Backup
+
+[Service]
+Type=oneshot
+
+# Создание бэкапа
+ExecStart=/bin/bash -c "borg create --stats --list borg@192.168.56.160:/mnt/backup/::etc-$(date +%%Y-%%m-%%d_%%H:%%M:%%S) /etc"
+
+# Проверка бэкапа
+ExecStart=borg check borg@192.168.56.160:/mnt/backup/
+
+# Очистка старых бэкапов
+ExecStart=borg prune --list --keep-daily 90 --keep-monthly 12 --keep-yearly 1 borg@192.168.56.160:/mnt/backup/
